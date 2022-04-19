@@ -14,6 +14,8 @@ html {
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -21,16 +23,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 225px;
+  padding: 20px 215px;
 }
 
-.logo {
+.header__logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
   color: #f9faf8;
 }
 
-.links {
+.header__links {
   list-style-type: none;
   display: flex;
   gap: 20px;
@@ -38,12 +40,49 @@ header {
   padding: 0;
 }
 
-.links a {
+.header__links a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.links a:hover {
+.header__links a:hover {
   border-bottom: 2px solid #e5e7eb;
+}
+
+.cover {
+  display: flex;
+  gap: 80px;
+  background-color: #1f2937;
+  padding: 125px 215px;
+}
+
+.cover__content {
+  flex: 1;
+}
+
+.cover__content-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cover__content-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cover__content-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 28px;
+}
+
+.cover__img {
+  flex: 1;
+  background-color: rgb(120, 124, 135);
 }
