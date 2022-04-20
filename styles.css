@@ -77,11 +77,12 @@ header {
 }
 
 .cover__content-button {
+  width: 120px;
   background-color: #3882f6;
   color: #f9faf8;
   font-size: 18px;
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 8px 28px;
 }
 
@@ -152,4 +153,42 @@ header {
   color: #1f2937;
   text-align: right;
   margin: 8px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0;
+}
+
+.action__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 7px;
+  gap: 140px;
+  padding: 45px 150px;
+}
+
+.action__content-title {
+  margin: 0;
+}
+
+.action__content-text {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.action__button {
+  width: 124px;
+  height: 41px;
+  color: #f9faf8;
+  font-size: 18px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 8px 28px;
 }
