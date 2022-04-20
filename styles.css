@@ -192,3 +192,17 @@ header {
   border-radius: 7px;
   padding: 8px 28px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.footer__text {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 20px;
+}
